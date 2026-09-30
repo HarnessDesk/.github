@@ -2,19 +2,21 @@
 
 ### Where your agents work — whoever made them.
 
-A control plane for coding agents, owned by no model vendor.<br/>
-Context, policy, history, tools, cost and evidence in one place — whichever agent does the work.
+Put Codex, Claude Code, Cursor and Gemini on one piece of work — one room, one board, one set of rules.<br/>
+A control plane for coding agents, owned by no model vendor.
 
 [**Download for macOS**](https://github.com/HarnessDesk/HarnessDesk/releases/latest) &nbsp;·&nbsp;
 [Documentation](https://github.com/HarnessDesk/HarnessDesk/blob/main/docs/README.md) &nbsp;·&nbsp;
 [harnessdesk.app](https://harnessdesk.app)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HarnessDesk/HarnessDesk/main/docs/images/app/turn-dark.gif" />
-  <img src="https://raw.githubusercontent.com/HarnessDesk/HarnessDesk/main/docs/images/app/turn-light.gif" width="840" alt="A turn arriving in HarnessDesk: the agent's reasoning appears first, then its tool calls one at a time — reading a file, grepping for a status code, editing it — while the task list in the sidebar ticks over, ending with a summary of what changed." />
+  <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: no-preference)" srcset="https://raw.githubusercontent.com/HarnessDesk/HarnessDesk/main/docs/images/app/hero-dark.gif" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HarnessDesk/HarnessDesk/main/docs/images/app/hero-dark-poster.png" />
+  <source media="(prefers-reduced-motion: no-preference)" srcset="https://raw.githubusercontent.com/HarnessDesk/HarnessDesk/main/docs/images/app/hero-light.gif" />
+  <img src="https://raw.githubusercontent.com/HarnessDesk/HarnessDesk/main/docs/images/app/hero-light-poster.png" width="840" alt="A HarnessDesk room with two agents from different vendors. Claude Code reports its fix for a checkout that fails on a transient 502 and asks Codex to check it; Codex opens a browser pane beside the chat, the storefront shows the order placed after the 502 was retried, and Codex reports back with one nit, which Claude Code takes." />
 </picture>
 
-<sub><em>A turn, as it arrives. Reasoning, then the tool calls, then what changed.</em></sub>
+<sub><em>Two vendors' agents on one change: one fixes it, the other checks it in the browser it drives.</em></sub>
 
 </div>
 
@@ -30,12 +32,10 @@ and it makes none of them.
 
 **[HarnessDesk](https://github.com/HarnessDesk/HarnessDesk)** — the desk itself. One macOS
 window where Codex, Claude Code, Gemini, Cursor and any ACP agent share a history, one
-permission policy and one audit log. They run in parallel on their own git worktrees, hand
-work to each other mid-conversation, and reach the same 53 built-in plugin tools.
-
-**[dsh-acp](https://github.com/HarnessDesk/dsh-acp)** — an Agent Client Protocol server for
-DeepSeek Harness, streaming the reasoning, tool calls, plans and token usage that the
-harness's own automation bridge withholds. Works with any ACP client, not just this one.
+permission policy and one audit log. Put several of them in a room on one board, each in its
+own git worktree; hand the room a flow that says who builds, who reviews and what decides;
+and read every plan's remaining quota and the work's cost on one dashboard. Every agent
+reaches the same 73 built-in plugin tools.
 
 <br/>
 
