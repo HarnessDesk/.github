@@ -32,7 +32,7 @@ Run coding agents in Teams. Set the rules with Flows, follow each Run, and step 
 
 ### What's here
 
-**[HarnessDesk](https://github.com/HarnessDesk/HarnessDesk)**, the desk itself. One macOS app where your coding agents work as a Team on one board, each in its own worktree. A Flow sets who writes, who reviews, which checks run and where you step in; every Run keeps the route it took. Skills and MCP servers across every agent sit in one Library, and one Dashboard shows what the work cost and what each plan has left.
+**[HarnessDesk](https://github.com/HarnessDesk/HarnessDesk)**, the desk itself. One macOS app where your coding agents work as a Team on one board. A Flow sets who writes, who reviews, which checks run and where you step in; every Run keeps the route it took. Skills and MCP servers across every agent sit in one Library, and one Dashboard shows what the work cost and what each plan has left.
 
 - **No new bill.** Each agent keeps its own sign-in, so the plans you already pay for keep working. HarnessDesk is free and adds nothing on top.
 - **Your code stays with you.** Agents work in your own folders, and the desk keeps its records on your machine.
@@ -40,4 +40,4 @@ Run coding agents in Teams. Set the rules with Flows, follow each Run, and step 
 
 <br/>
 
-<sub>MIT · local-first · pointed at the agent accounts you already pay for.</sub>
+<sub>MIT · free · runs on the agent accounts you already pay for.</sub>
